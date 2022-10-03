@@ -1,0 +1,8 @@
+@import url(global.css);
+
+.comp-navbar{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
