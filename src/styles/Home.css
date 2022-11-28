@@ -1,0 +1,18 @@
+.comp-layout{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.comp-layout img{
+    width: 200px;
+}
+
+.comp-layout .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
