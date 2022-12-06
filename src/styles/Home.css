@@ -9,10 +9,16 @@
 
 .comp-layout img{
     width: 200px;
+    height: 200px;
 }
 
 .comp-layout .item{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
+}
+
+.comp-layout .item:hover{
+    background-color: rgb(187, 187, 187);
 }
