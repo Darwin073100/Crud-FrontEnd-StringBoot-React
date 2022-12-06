@@ -1,9 +1,11 @@
 :root{
-    --primary-color: rgb(22, 122, 253);
+    --primary-color: #167afd;
+    --primary-color-hover: #7db5ff;
     --secondary-color: #0c7443;
     --warning-color: #ffc107;
     --error-color: #dc3545;
-    --white-color: white;
+    --white-color: #ffffff;
+    --white-color-hover: #b9b9b9;
 }
 * {
     margin: 0;
