@@ -5,10 +5,10 @@ function NavBar(){
     return(
         <div className="comp-navbar">
             <ul>
-                <li><a href='/'>Home</a></li>
-                <li><a href='/persona'>Alumnos</a></li>
-                <li><a href='/inscripcion'>Inscripciones</a></li>
-                <li><a href='/carrera'>Carreras</a></li>
+                <li><a href='/'>Inicio</a></li>
+                <li><a href='/persona'>Mi Información</a></li>
+                <li><a href='/inscripcion'>Becas</a></li>
+                <li><a href='/carrera'>Extra Escolares</a></li>
             </ul>
         </div>
     );

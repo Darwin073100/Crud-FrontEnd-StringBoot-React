@@ -1,28 +1,28 @@
 @import url(global.css);
 
-.comp-navbar{
-    background-color: var(--primary-color);
-    display: flex;
-    justify-content: start;
+.comp-navbar {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: left;
 }
 
-.comp-navbar ul{
-    list-style: none;
-    display: flex;
+.comp-navbar ul {
+  list-style: none;
+  display: flex;
 }
 
-.comp-navbar ul li a{
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px;
-    color: var(--white-color);
+.comp-navbar ul li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px;
+  color: var(--white-color);
 }
 
-.comp-navbar ul li a:hover{
-    background-color: var(--primary-color-hover);
-    color: black;
+.comp-navbar ul li a:hover {
+  background-color: var(--primary-color-hover);
+  color: black;
 }
 
-.comp-navbar ul li a:active{
-    background-color: var(--primary-color);
+.comp-navbar ul li a:active {
+  background-color: var(--primary-color);
 }
