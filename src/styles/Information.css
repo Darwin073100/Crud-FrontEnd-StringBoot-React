@@ -1,1 +1,85 @@
 @import url(global.css);
+
+.content .item{
+    display: flex;
+    flex-direction: column;
+}
+
+.information .img-back{
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    width: 100%;
+}
+.information .img-back img{
+   height: 320px;
+   width: 100%;
+}
+
+.information .comp-information{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background-color: #b4e1ffad;
+}
+
+.information .comp-information .img{
+    height: 320px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.information .comp-information .img img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 4px solid var(--primary-color);
+}
+.information .comp-information h1{
+    text-align: center;
+}
+
+.datos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos .item{
+    margin: 28px 4px 14px 0;
+}
+
+.item input{
+    border: 2px solid var(--primary-color);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.boleta{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.table{
+    display: inline-block;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+.table th{
+    padding: 10px;
+    text-align: left;
+    background-color: var(--primary-color);
+}
+
+.table td{
+    text-align: center;
+}
+
+.table tr{
+    border: 2px solid var(--primary-color);
+}
