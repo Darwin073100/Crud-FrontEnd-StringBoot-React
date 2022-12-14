@@ -11,7 +11,7 @@
   background-color: rgba(255, 255, 255, 0.555);
 }
 
-.img-back {
+.home .img-back {
   z-index: 0;
   position: absolute;
   display: inline-block;
@@ -20,7 +20,7 @@
   width: 100%;
   height: 94vh;
 }
-.img-back img{
+.home .img-back img{
   width: 100%;
   height: 93vh;
 }

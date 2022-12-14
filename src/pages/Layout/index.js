@@ -17,13 +17,13 @@ function Layout() {
         <Link className="item" to="/">
           <img src={Home} alt="Home" />
         </Link>
-        <Link className="item" to="/persona">
+        <Link className="item" to="/information">
           <img src={Student} alt="Student" />
         </Link>
-        <Link className="item" to="/inscripcion">
+        <Link className="item" to="/becas">
           <img src={Inscriptionn} alt="Inscription" />
         </Link>
-        <Link className="item" to="/carrera">
+        <Link className="item" to="/extra">
           <img src={Career} alt="Career" />
         </Link>
         <Outlet />

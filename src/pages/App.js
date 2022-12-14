@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { NavBar } from '../components/nav/NavBar';
 import { Layout } from './Layout';
-import { Persona } from '../pages/Layout/Persona';
-import { Inscripcion } from '../pages/Layout/Inscripcion';
-import { Carrera } from '../pages/Layout/Carrera';
+import { Information } from '../pages/Layout/Information';
+import { Becas } from '../pages/Layout/Becas';
+import { Extra } from '../pages/Layout/Extra';
 
 function App(){
     return(
@@ -12,9 +12,9 @@ function App(){
             <BrowserRouter>
                 <Routes>
                     <Route path='/' element={ <Layout />}/>
-                    <Route path='/persona' element={ <Persona />} />
-                    <Route path='/inscripcion' element={ <Inscripcion />} />
-                    <Route path='/carrera' element={ <Carrera />} />
+                    <Route path='/information' element={ <Information />} />
+                    <Route path='/becas' element={ <Becas />} />
+                    <Route path='/extra' element={ <Extra />} />
                 </Routes>
             </BrowserRouter>
         </div>
