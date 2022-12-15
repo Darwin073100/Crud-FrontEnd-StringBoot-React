@@ -14,16 +14,16 @@ function Layout() {
         <img src={ITSCCH} alt="FONDO"/>
       </div>
       <div className="comp-layout">
-        <Link className="item" to="/">
+        <Link className="item" to="/" title="Inicio">
           <img src={Home} alt="Home" />
         </Link>
-        <Link className="item" to="/information">
+        <Link className="item" to="/information" title="Información Personal">
           <img src={Student} alt="Student" />
         </Link>
-        <Link className="item" to="/becas">
+        <Link className="item" to="/becas" title="Becas Disponibles">
           <img src={Inscriptionn} alt="Inscription" />
         </Link>
-        <Link className="item" to="/extra">
+        <Link className="item" to="/extra" title="Actividades Extra Escolares">
           <img src={Career} alt="Career" />
         </Link>
         <Outlet />

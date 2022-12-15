@@ -2,10 +2,15 @@
     --primary-color: #167afd;
     --primary-color-hover: #7db5ff;
     --secondary-color: #0c7443;
+    --secondary-color-hover: #4d8d6f;
     --warning-color: #ffc107;
-    --error-color: #dc3545;
+    --error-color: #dd1f32;
+    --error-color-hover: #d8515f;
     --white-color: #ffffff;
     --white-color-hover: #b9b9b9;
+    --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
 }
 * {
     margin: 0;

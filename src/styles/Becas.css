@@ -1,0 +1,61 @@
+@import url(global.css);
+
+.becas{
+    margin: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+}
+
+.container .card-beca{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    width: 350px;
+    border-radius: 12px 0 12px 0;
+    border: 2px solid var(--primary-color);
+    margin: 10px;
+}
+
+.card-beca img{
+    width: 350px;
+    border-radius: 12px 0 0 0;
+}
+
+.card-fooder{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn-primary{
+    background-color: var(--secondary-color);
+    padding: 6px;
+    border: 1px solir var(--secondary-color);
+    border-radius: 4px;
+    display: inline-block;
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+.btn-primary:hover{
+    background-color: var(--secondary-color-hover);
+}
+.btn-primary:active{
+    background-color: var(--secondary-color);
+}
+
+.btn-error{
+    background-color: var(--error-color);
+    padding: 6px;
+    border: 1px solir var(--error-color);
+    border-radius: 4px;
+    display: inline-block;
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+.btn-error:hover{
+    background-color: var(--error-color-hover);
+}
+.btn-error:active{
+    background-color: var(--error-color);
+}
+
