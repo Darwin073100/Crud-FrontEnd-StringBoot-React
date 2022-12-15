@@ -4,8 +4,8 @@ import "../../styles/Home.css";
 import Student from "../../assets/persona.svg";
 import Inscriptionn from "../../assets/inscription.svg";
 import Career from "../../assets/carrera.svg";
-import Home from "../../assets/home.svg";
-import ITSCCH from "../../assets/itscch.jpg";
+import Home from "../../assets/logo.jpg";
+import ITSCCH from "../../assets/ubn.jpg";
 
 function Layout() {
   return (
