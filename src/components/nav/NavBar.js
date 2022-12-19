@@ -5,7 +5,7 @@ import logo from "../../assets/logo.jpg";
 function NavBar(){
     return(
         <div className="comp-navbar">
-            <img src={logo} />
+            <img src={logo} alt="ubn"/>
             <ul>
                 <li><a href='/'>Inicio</a></li>
                 <li><a href='/information'>Mi Información</a></li>
